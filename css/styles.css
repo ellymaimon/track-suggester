@@ -9,8 +9,17 @@ img.card-img-top {
 }
 
 
-/* Track Cards Row */
+/* Track Cards */
+.track-cards {
+  margin-top: 50px;
+}
 
 .card-header {
   text-align: center;
+}
+
+/* Survey */
+
+.survey {
+  margin-top: 50px;
 }
