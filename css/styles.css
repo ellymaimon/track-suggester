@@ -1,11 +1,15 @@
 body {
+  background-color: white;
+}
+
+.container {
+  padding: 0 50px;
   background-color: #fafbfc;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
 }
 
 /* Header */
-.header {
-  margin-top: 25px;
-}
 
 #header-h1 {
   background-color: #00b3b4;
