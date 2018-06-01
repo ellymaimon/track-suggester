@@ -18,20 +18,22 @@ $(function(){
 
     var total = tally(answer1, answer2, answer3, answer4, answer5);
 
-    alert(userName);
+    $(".customName").text(userName);
 
     if (total <= 5) {
-      $("#userName").text(userName);
       $("#result-1").show();
     } else if (total > 5 && total <= 11) {
-      $("#userName").text(userName);
       $("#result-2").show();
     } else if (total > 11) {
-      $("#userName").text(userName);
       $("#result-3").show();
     } else {
       $("#result-4").show();
     }
+
+    window.location.hash = '#result-1'
+    window.location.hash = '#result-2'
+    window.location.hash = '#result-3'
+    window.location.hash = '#result-4'
 
   });
 
