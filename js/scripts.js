@@ -3,16 +3,6 @@ function tally(a1, a2, a3, a4, a5) {
   return a1 + a2 + a3 + a4 + a5;
 }
 
-// function decide(someTally) {
-//   if (someTally <= 5) {
-//     return var option = "CSS/React Track";
-//   } else if (someTally > 5 && someTally <= 11) {
-//     return var option = "C#/.Net Track";
-//   } else if (someTally > 11) {
-//     return var option = "Ruby/Rails Track";
-//   }
-// }
-
 // Front-End
 $(function(){
   $("form#survey").submit(function(event) {
@@ -25,17 +15,20 @@ $(function(){
     var answer4 = parseInt($("input:radio[name=q4]:checked").val());
     var answer5 = parseInt($("input:radio[name=q5]:checked").val());
 
-    alert(userName);
 
-    // var total = tally(answer1, answer2, answer3, answer4, answer5);
-    //
-    // alert(total);
-    //
-    // decide(total);
-    //
-    // $(".results p").text(option);
+    var total = tally(answer1, answer2, answer3, answer4, answer5);
 
+    alert(total);
 
+    if (total <= 5) {
+      $("#results").text("You should take the CSS/React track");
+    } else if (total > 5 && total <= 11) {
+      $("#results").text("You should take the C#/.Net track.");
+    } else if (total > 11) {
+      $("#results").text("You should take the Ruby/Rails track.");
+    } else {
+      $("#results").text("Sorry, something went wrong! Please refresh the page and try again.");
+    }
 
   });
 
