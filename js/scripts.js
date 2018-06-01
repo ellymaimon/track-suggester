@@ -42,6 +42,7 @@ $(function(){
     $("#result-2").hide();
     $("#result-3").hide();
     $("#result-4").hide();
+    window.location.hash = '#survey'
   });
 
 });
