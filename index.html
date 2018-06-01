@@ -5,6 +5,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/scripts.js" charset="utf-8"></script>
   <title>Which track should I take?</title>
 </head>
@@ -23,30 +26,42 @@
     <div class="row">
       <div class="col">
         <div class="card">
-          <h5 class="card-header">Ruby/Rails</h5>
-          <img class="card-img-top" src="img/ruby.jpg" alt="The ruby logo">
-          <div class="card-body">
-            <p class="card-text">Rails is a framework written in the Ruby programming language. It is designed to make programming web applications easier by making assumptions about what developers need to get started. It allows you to write less code while accomplishing more than many other languages and frameworks.</p>
+          <a data-toggle="collapse" href="#collapse-ruby" role="button">
+            <h5 class="card-header">Ruby/Rails</h5>
+          </a>
+          <div class="collapse" id="collapse-ruby">
+            <img class="card-img-top" src="img/ruby.jpg" alt="The ruby logo">
+            <div class="card-body">
+              <p class="card-text">Rails is a framework written in the Ruby programming language. It is designed to make programming web applications easier by making assumptions about what developers need to get started. It allows you to write less code while accomplishing more than many other languages and frameworks.</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-          <h5 class="card-header">CSS/React</h5>
-          <img class="card-img-top" src="img/react.png" alt="The react logo">
-          <div class="card-body">
-            <p class="card-text">React is a JavaScript library for building user interfaces. React can be used in the development of single-page applications and mobile applications and aims primarily to provide speed, simplicity, and scalability.</p>
+          <a data-toggle="collapse" href="#collapse-css" role="button">
+            <h5 class="card-header">CSS/React</h5>
+          </a>
+          <div class="collapse" id="collapse-css">
+            <img class="card-img-top" src="img/react.png" alt="The react logo">
+            <div class="card-body">
+              <p class="card-text">React is a JavaScript library for building user interfaces. React can be used in the development of single-page applications and mobile applications and aims primarily to provide speed, simplicity, and scalability.</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-          <h5 class="card-header">C#/.Net</h5>
-          <img class="card-img-top" src="img/c-sharp.svg" alt="The c# logo">
-          <div class="card-body">
-            <p class="card-text">C# is a powerful and flexible programming language. C# has already been used for projects as diverse as dynamic Web sites, development tools, and even compilers. C# was created as an object-oriented programming (OOP) language.</p>
+          <a data-toggle="collapse" href="#collapse-c#" role="button">
+            <h5 class="card-header">C#/.Net</h5>
+          </a>
+          <div class="collapse" id="collapse-c#">
+            <img class="card-img-top" src="img/c-sharp.svg" alt="The c# logo">
+            <div class="card-body">
+              <p class="card-text">C# is a powerful and flexible programming language. C# has already been used for projects as diverse as dynamic Web sites, development tools, and even compilers. C# was created as an object-oriented programming (OOP) language.</p>
+            </div>
           </div>
         </div>
       </div>
