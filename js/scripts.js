@@ -6,14 +6,14 @@ $(function(){
   $("form#survey").submit(function(event) {
     event.preventDefault();
 
-    // var userName = ("input#nameInput").val();
+    var userName = $("input#nameInput").val();
     var answer1 = parseInt($("input:radio[name=q1]:checked").val());
     var answer2 = parseInt($("input:radio[name=q2]:checked").val());
     var answer3 = parseInt($("input:radio[name=q3]:checked").val());
     var answer4 = parseInt($("input:radio[name=q4]:checked").val());
     var answer5 = parseInt($("input:radio[name=q5]:checked").val());
 
-    // alert(userName);
+    alert(userName);
     alert(answer2);
     alert(answer3);
     alert(answer4);

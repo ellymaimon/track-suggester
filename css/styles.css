@@ -14,8 +14,6 @@
 
 
 /* Track Cards */
-
-
 .track-cards {
   margin-top: 50px;
 }
@@ -31,14 +29,16 @@ img.card-img-top {
   margin: 0 70px;
 }
 
+
 /* Survey */
 .survey {
   margin-top: 50px;
 }
 
 #nameForm {
-  max-width: 200px;
+  max-width: 300px;
   margin: 30px 50px;
+  font-size: 18px;
 }
 
 .question {
