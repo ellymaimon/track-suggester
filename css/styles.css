@@ -31,17 +31,3 @@ img.card-img-top {
   max-height: 250px;
   max-width: 250px;
 }
-
-.input_hidden {
-    position: absolute;
-    left: -9999px;
-}
-
-.selected {
-    border: 2px solid crimson;
-}
-
-#question4 label {
-    display: inline-block;
-    cursor: pointer;
-}
