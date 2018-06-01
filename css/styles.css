@@ -36,6 +36,11 @@ img.card-img-top {
   margin-top: 50px;
 }
 
+#nameForm {
+  max-width: 200px;
+  margin: 30px 50px;
+}
+
 .question {
   margin: 30px 50px;
 }
