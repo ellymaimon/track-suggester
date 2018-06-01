@@ -53,3 +53,20 @@ img.card-img-top {
 #submit-button {
   margin: 0px 30px 50px 30px;
 }
+
+/* Result */
+#result-1 {
+  display: none;
+}
+
+#result-2 {
+  display: none;
+}
+
+#result-3 {
+  display: none;
+}
+
+#result-4 {
+  display: none;
+}

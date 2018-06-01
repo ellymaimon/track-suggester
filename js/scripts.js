@@ -18,7 +18,7 @@ $(function(){
 
     var total = tally(answer1, answer2, answer3, answer4, answer5);
 
-    // alert(total);
+    alert(total);
 
     if (total <= 5) {
       $("#result-1").show();
@@ -32,6 +32,11 @@ $(function(){
 
   });
 
-  $("button#reset")
+  $("button#reset").click(function(){
+    $("#result-1").hide();
+    $("#result-2").hide();
+    $("#result-3").hide();
+    $("#result-4").hide();
+  });
 
 });
