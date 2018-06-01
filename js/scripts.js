@@ -18,18 +18,20 @@ $(function(){
 
     var total = tally(answer1, answer2, answer3, answer4, answer5);
 
-    alert(total);
+    // alert(total);
 
     if (total <= 5) {
-      $("#results").text("You should take the CSS/React track");
+      $("#result-1").show();
     } else if (total > 5 && total <= 11) {
-      $("#results").text("You should take the C#/.Net track.");
+      $("#result-2").show();
     } else if (total > 11) {
-      $("#results").text("You should take the Ruby/Rails track.");
+      $("#result-3").show();
     } else {
-      $("#results").text("Sorry, something went wrong! Please refresh the page and try again.");
+      $("#result-4").show();
     }
 
   });
+
+  $("button#reset")
 
 });
