@@ -3,12 +3,11 @@
   margin-top: 25px;
 }
 
-img.card-img-top {
-  padding: 10px;
-}
 
 
 /* Track Cards */
+
+
 .track-cards {
   margin-top: 50px;
 }
@@ -17,6 +16,12 @@ img.card-img-top {
   text-align: center;
 }
 
+img.card-img-top {
+  padding: 10px;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 70px;
+}
 
 /* Survey */
 .survey {
