@@ -2,9 +2,6 @@ function tally(a1, a2, a3, a4, a5) {
   return a1 + a2 + a3 + a4 + a5;
 }
 
-
-
-
 $(function(){
   $("form#survey").submit(function(event) {
     event.preventDefault();
